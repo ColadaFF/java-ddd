@@ -33,6 +33,8 @@ public class DayShift {
             return cancelAppointment(cmd);
         }
 
+        return null;
+
     }
 
     private Either<DayShiftCommandError, DayShift> cancelAppointment(DayShiftCommand.CancelAppointment cmd) {
